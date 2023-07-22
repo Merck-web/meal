@@ -121,6 +121,10 @@ export default {
     }
 
     tbody{
+      tr:hover{
+        background-color: rgba(0, 0, 0, 0.3) !important;
+        cursor: pointer;
+      }
       tr:last-child td:first-child{
         border-radius: 0 0 0 10px;
       }
